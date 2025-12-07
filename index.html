@@ -6,12 +6,11 @@
     <title>Jinrui (Carrie) Chu | NUS</title>
     <style>
         :root {
-            /* 极简配色方案：深灰与白 */
-            --primary-color: #2c3e50; /* 深蓝灰，沉稳 */
-            --accent-color: #5d6d7e;  /* 浅一点的灰色用于次要信息 */
+            --primary-color: #2c3e50; 
+            --accent-color: #5d6d7e;  
             --bg-color: #ffffff;
-            --sidebar-bg: #f8f9fa;    /* 极淡的灰背景 */
-            --link-color: #2980b9;    /* 链接保留一点克制的蓝 */
+            --sidebar-bg: #f8f9fa;    
+            --link-color: #2980b9;    
             --border-color: #eaecee;
         }
 
@@ -24,7 +23,7 @@
             background-color: var(--bg-color);
         }
 
-        /* 布局容器 */
+        
         .container {
             display: flex;
             max-width: 1100px;
@@ -32,7 +31,7 @@
             min-height: 100vh;
         }
 
-        /* --- 左侧边栏 (Sticky) --- */
+        
         .sidebar {
             width: 260px;
             background-color: var(--sidebar-bg);
@@ -100,7 +99,7 @@
 
         .icon { width: 20px; text-align: center; margin-right: 8px; opacity: 0.7; }
 
-        /* --- 右侧主内容 --- */
+       
         .main-content {
             flex: 1;
             padding: 40px 50px;
@@ -136,7 +135,7 @@
             line-height: 1.6;
         }
         
-        /* 论文列表 */
+        
         .paper-item {
             margin-bottom: 30px;
         }
@@ -183,9 +182,9 @@
             text-decoration: underline;
         }
 
-        /* 折叠摘要样式 */
+       
         .abstract-content {
-            display: none; /* 默认隐藏 */
+            display: none; 
             margin-top: 12px;
             padding: 12px 18px;
             background-color: #f9f9f9;
@@ -206,7 +205,7 @@
             to { opacity: 1; }
         }
 
-        /* 响应式 */
+      
         @media (max-width: 768px) {
             .container { flex-direction: column; }
             .sidebar { 
@@ -224,10 +223,8 @@
 <body>
 
 <div class="container">
-    <!-- 左侧固定边栏 -->
     <aside class="sidebar">
         <div class="profile-photo">
-            <!-- 记得替换你的照片文件名 -->
             <img src="photo.jpg" alt="Jinrui (Carrie) Chu">
         </div>
 
@@ -246,10 +243,8 @@
         </ul>
     </aside>
 
-    <!-- 右侧主内容 -->
     <main class="main-content">
         
-        <!-- About Section -->
         <section id="about">
             <h1>About Me</h1>
             <p>
