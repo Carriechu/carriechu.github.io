@@ -3,10 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jinrui (Carrie) Chu | NUS</title>
-    <title>Carrie Chu - Social Learning and Green Consumption</title>
-    <meta name="description" content="Working Paper: Social Learning and Green Consumption: Evidence from Climate Shocks. Co-authored with Sumit Agarwal, Yupeng Lin, Jean Zeng 
+    
+    <!-- ✅ 修复 1：合并标题，把你的名字和核心文章关键词放在一起 -->
+    <title>Jinrui (Carrie) Chu - Social Learning and Green Consumption | NUS</title>
+    
+    <!-- ✅ 修复 2：正确闭合 Meta Description，这是 Google 搜索结果下方的摘要 -->
+    <meta name="description" content="PhD Candidate at NUS. Working Paper: Social Learning and Green Consumption: Evidence from Climate Shocks. Co-authored with Sumit Agarwal, Yupeng Lin, Jean Zeng.">
+    
+    <meta name="author" content="Jinrui (Carrie) Chu">
+    <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="X6jtqhdcj5PV_8opiPp3AZEh2Gy0YRmth1Fjtq94Ins" />
+    <link rel="canonical" href="https://carriechu.github.io/" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jinrui (Carrie) Chu - Social Learning and Green Consumption | NUS" />
+    <meta property="og:description" content="PhD Candidate at NUS. Working Paper: Social Learning and Green Consumption: Evidence from Climate Shocks. Co-authored with Sumit Agarwal, Yupeng Lin, Jean Zeng." />
+    <meta property="og:url" content="https://carriechu.github.io/" />
+    <meta property="og:site_name" content="Jinrui (Carrie) Chu - Academic Homepage" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jinrui (Carrie) Chu - Social Learning and Green Consumption | NUS" />
+    <meta name="twitter:description" content="PhD Candidate at NUS. Research on Tax, Innovation, ESG, Social Media, and Capital Markets." />
+
+    <!-- JSON-LD Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Jinrui (Carrie) Chu",
+            "url": "https://carriechu.github.io/",
+            "jobTitle": "PhD Candidate in Accounting",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NUS Business School, National University of Singapore"
+            },
+            "email": "jinrui.chu@u.nus.edu",
+            "sameAs": [
+                "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7922564",
+                "https://www.linkedin.com/in/jinrui-chu-040316192/"
+            ],
+            "knowsAbout": ["Tax", "Innovation", "Disclosure", "ESG", "Social Media", "Capital Markets", "Big Data", "AI"]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Working Papers by Jinrui (Carrie) Chu",
+        "itemListElement": [
+            {
+                "@type": "ScholarlyArticle",
+                "position": 1,
+                "name": "Social Learning and Green Consumption: Evidence from Climate Shocks",
+                "author": [
+                    {"@type": "Person", "name": "Jinrui (Carrie) Chu"},
+                    {"@type": "Person", "name": "Sumit Agarwal"},
+                    {"@type": "Person", "name": "Yupeng Lin"},
+                    {"@type": "Person", "name": "Jean Zeng"}
+                ],
+                "url": "https://carriechu.github.io/"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "position": 2,
+                "name": "How Does Capital Gains Realization Respond to Tax Rate Intertemporal Discontinuity?",
+                "author": [
+                    {"@type": "Person", "name": "Jinrui (Carrie) Chu"},
+                    {"@type": "Person", "name": "Li Huang"},
+                    {"@type": "Person", "name": "Oliver Zhen Li"},
+                    {"@type": "Person", "name": "Xiaoyu Xue"}
+                ],
+                "url": "https://carriechu.github.io/"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "position": 3,
+                "name": "Credit Supply Externalities of Intertemporal Income Shifting",
+                "author": [
+                    {"@type": "Person", "name": "Jinrui (Carrie) Chu"},
+                    {"@type": "Person", "name": "Hansol Jang"},
+                    {"@type": "Person", "name": "Oliver Zhen Li"},
+                    {"@type": "Person", "name": "Xiaoyu Xue"}
+                ],
+                "url": "https://carriechu.github.io/"
+            }
+        ]
+    }
+    </script>
+
     <style>
         :root {
             --primary-color: #2c3e50; 
@@ -26,7 +115,6 @@
             background-color: var(--bg-color);
         }
 
-        
         .container {
             display: flex;
             max-width: 1100px;
@@ -34,14 +122,12 @@
             min-height: 100vh;
         }
 
-        
         .sidebar {
             width: 260px;
             background-color: var(--sidebar-bg);
             padding: 40px 25px;
             border-right: 1px solid var(--border-color);
             flex-shrink: 0;
-            
             position: sticky;
             top: 0;
             height: 100vh;
@@ -62,12 +148,14 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
 
+        /* ✅ 侧边栏名字样式保持，但 HTML 标签会改成 h1 */
         .author-name {
             font-family: 'Georgia', serif; 
             font-size: 1.4em;
             color: var(--primary-color);
             margin-bottom: 10px;
             text-align: center;
+            font-weight: bold; /* 确保名字加粗 */
         }
 
         .author-bio {
@@ -102,7 +190,6 @@
 
         .icon { width: 20px; text-align: center; margin-right: 8px; opacity: 0.7; }
 
-       
         .main-content {
             flex: 1;
             padding: 40px 50px;
@@ -111,7 +198,8 @@
 
         section { margin-bottom: 45px; }
 
-        h1 {
+        /* ✅ 修改：只针对正文区域的标题添加下划线，避免影响侧边栏 */
+        .main-content h2 {
             font-family: 'Georgia', serif;
             font-size: 1.5em;
             color: var(--primary-color);
@@ -121,12 +209,12 @@
             font-weight: normal;
         }
 
-        h2 {
-            font-size: 1.1em;
-            color: var(--primary-color);
-            margin-top: 25px;
-            margin-bottom: 15px;
-            font-weight: 600;
+        .main-content h3 {
+             font-size: 1.1em;
+             color: var(--primary-color);
+             margin-top: 25px;
+             margin-bottom: 15px;
+             font-weight: 600;
         }
 
         p { font-size: 0.95em; color: #444; margin-bottom: 15px; text-align: justify; line-height: 1.6; }
@@ -138,17 +226,19 @@
             line-height: 1.6;
         }
         
-        
         .paper-item {
             margin-bottom: 30px;
         }
 
-        .paper-title {
-            font-size: 1.05em;
+        /* ✅ 修改：文章标题现在是 h3，样式调整以匹配 */
+        h3.paper-title {
+            font-size: 1.15em; /*稍微加大一点*/
             font-weight: 600;
             color: #000;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
             line-height: 1.4;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* 保持非衬线体 */
+            margin-top: 0; /* 重置 h3 默认边距 */
         }
 
         .paper-authors {
@@ -185,7 +275,6 @@
             text-decoration: underline;
         }
 
-       
         .abstract-content {
             display: none; 
             margin-top: 12px;
@@ -208,7 +297,6 @@
             to { opacity: 1; }
         }
 
-      
         @media (max-width: 768px) {
             .container { flex-direction: column; }
             .sidebar { 
@@ -228,10 +316,12 @@
 <div class="container">
     <aside class="sidebar">
         <div class="profile-photo">
+            <!-- 记得替换你的照片 -->
             <img src="photo.jpg" alt="Jinrui (Carrie) Chu">
         </div>
 
-        <div class="author-name">Jinrui (Carrie) Chu</div>
+        <!-- ✅ 优化：这是全站最重要的标题 (H1)，Google 最看重这个 -->
+        <h1 class="author-name">Jinrui (Carrie) Chu</h1>
         
         <div class="author-bio">
             PhD Candidate in Accounting<br>
@@ -240,7 +330,6 @@
 
         <ul class="contact-list">
             <li><a href="mailto:jinrui.chu@u.nus.edu"><span class="icon">✉</span> jinrui.chu@u.nus.edu</a></li>
-            <!--<li><a href="cv.pdf"><span class="icon">📄</span> Curriculum Vitae</a></li>-->
             <li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7922564" target="_blank"><span class="icon">📚</span> SSRN Profile</a></li>
             <li><a href="https://www.linkedin.com/in/jinrui-chu-040316192/" target="_blank"><span class="icon">🔗</span> LinkedIn</a></li>
         </ul>
@@ -249,7 +338,8 @@
     <main class="main-content">
         
         <section id="about">
-            <h1>About Me</h1>
+            <!-- ✅ 优化：改为 H2，作为二级标题 -->
+            <h2>About Me</h2>
             <p>
                 I am a fourth-year PhD candidate in Accounting at the National University of Singapore (NUS). My research examines the real and financial consequences of tax policies and information disclosure.
             </p>
@@ -260,26 +350,32 @@
 
         <!-- Research Section -->
         <section id="research">
-            <h1>Working Papers</h1>
+            <!-- ✅ 优化：改为 H2 -->
+            <h2>Working Papers</h2>
 
             <!-- Paper 1 -->
-            <div class="paper-item">
-                <div class="paper-title">Social Learning and Green Consumption: Evidence from Climate Shocks</div>
+            <article class="paper-item">
+                <!-- ✅ 关键优化：文章标题改为 H3，权重极高，利于搜索 -->
+                <h3 class="paper-title">Social Learning and Green Consumption: Evidence from Climate Shocks</h3>
+                
                 <div class="paper-authors">with Sumit Agarwal, Yupeng Lin, and Jean Zeng</div>
                 
                 <div class="paper-actions">
                     <button onclick="toggleAbstract('abs1')">Abstract ▼</button>
+                    <!-- 确保这个 PDF 文件名里包含了 paper title 里的单词 -->
                     <a href="Social_Learning_and_Green_Consumption_Evidence_from_Climate_Shocks.pdf">Download Abstract (PDF)</a>
                 </div>
                 
                 <div id="abs1" class="abstract-content">
                     This paper examines the impact of learning about the adverse effects of climate change on households’ environmental behaviors. We rely on natural disaster-triggered climate discussions from friends to generate exogenous variations in the intensity of learning. Utilizing proprietary data from a major food delivery platform in the U.S., we find that individuals’ learning about their friends’ disaster experiences via social media translates into a dietary transition towards foods with a low-carbon footprint. Friends' climate-related social media posts act as an accelerator, enhancing these changes in consumption patterns. Further, individuals subsequently increase their own climate change discussions online, creating a reinforcing information-consumption loop that propagates through the network.
                 </div>
-            </div>
+            </article>
 
             <!-- Paper 2 -->
-            <div class="paper-item">
-                <div class="paper-title">How Does Capital Gains Realization Respond to Tax Rate Intertemporal Discontinuity?</div>
+            <article class="paper-item">
+                <!-- ✅ 关键优化：文章标题改为 H3 -->
+                <h3 class="paper-title">How Does Capital Gains Realization Respond to Tax Rate Intertemporal Discontinuity?</h3>
+                
                 <div class="paper-authors">with Li Huang, Oliver Zhen Li, and Xiaoyu Xue</div>
                 
                 <div class="paper-actions">
@@ -289,11 +385,13 @@
                 <div id="abs2" class="abstract-content">
                     Relying on county-level capital gains realization information and state-level capital gains tax rates, we provide direct evidence that capital gains tax rate intertemporal discontinuity—the difference between short-term and long-term rates—reduces capital gains realization. More importantly, this negative association increases with adjusted gross income and taxpayer age, two prominent taxpayer characteristics associated with added reluctance to realize short-term capital gains. Further, taxpayer sophistication, as reflected in attention paid to capital gains tax and the number of local tax professionals, enhances the negative association between gain realization and rate discontinuity, while risk-taking preference and individualism mitigate taxpayers’ tendency to delay capital gains realization due to rate discontinuity. Our results provide direct evidence of a negative effect of tax rate discontinuity on capital gains realization, and we demonstrate that the desire to delay quick realization of capital gains due to rate discontinuity varies consistently with taxpayers’ characteristics and incentives.
                 </div>
-            </div>
+            </article>
 
             <!-- Paper 3 -->
-            <div class="paper-item">
-                <div class="paper-title">Credit Supply Externalities of Intertemporal Income Shifting</div>
+            <article class="paper-item">
+                <!-- ✅ 关键优化：文章标题改为 H3 -->
+                <h3 class="paper-title">Credit Supply Externalities of Intertemporal Income Shifting</h3>
+                
                 <div class="paper-authors">with Hansol Jang, Oliver Zhen Li, and Xiaoyu Xue</div>
                 <div class="paper-venue">Under Review</div>
                 
@@ -304,7 +402,7 @@
                 <div id="abs3" class="abstract-content">
                     Tax avoidance, despite its apparent damage to immediate fiscal revenue, can potentially generate positive externalities that fuel otherwise absent economic activities. Using U.S. county-level tax statistics and bank-level data, we show that high-income taxpayers, in anticipation of a tax increase in 2013, accelerate their taxable income realizations, especially capital gains. A significant portion of the proceeds goes to bank deposits. This increase in deposits leads banks to expand their credit supply, with much of the additional lending going to real estate loans that benefit small residential properties, especially in counties with lower levels of income and educational attainment and greater shares of rural population. Our research provides evidence that intertemporal income shifting, while reducing immediate tax revenue, has a positive externality on credit supply and potentially enhances financial inclusion.
                 </div>
-            </div>
+            </article>
 
         </section>
 
